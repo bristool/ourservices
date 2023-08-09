@@ -1,0 +1,17 @@
+/**
+ * Custom scripts for Radio Image Control
+ *
+ * @package Ogma News
+ */
+
+wp.customize.controlConstructor['ogma-news-radio-image'] = wp.customize.Control.extend({
+	ready: function() {
+		'use strict';
+		var control = this;
+
+		// Change the value
+		this.container.on( 'click', 'input', function() {
+			control.setting.set( jQuery( this ).val() );
+		});
+	}
+});

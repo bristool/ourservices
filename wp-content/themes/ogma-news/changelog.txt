@@ -1,0 +1,14 @@
+== 1.0.3: 2023-07-26 ==
+- Fix: bugs at fallback api value in admin dashboard.
+- Fix: banner custom class in new layout.
+
+== 1.0.2: 2023-07-19 ==
+- Fix: slider layout two design issue fixed.
+- Fix: Banner Column Re-order issue fixed.
+- Some design tweaks done.
+
+== 1.0.1: 2023-07-11 ==
+- Fix: Task listed by Admin reviewer.
+
+== 1.0.0: 2023-07-07 ==
+- New: First release.
